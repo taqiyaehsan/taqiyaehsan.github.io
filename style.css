@@ -24,6 +24,9 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     }
 
 h1, p, a, div {
