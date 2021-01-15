@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700;800&display=swap'); 
 
 :root {
@@ -23,7 +30,7 @@ body {
     max-height: 100%;
     background-size: cover;
     background-position: center;
-    background-repeat: repeat; 
+    background-repeat: repeat;
     }
 
 h1, p, a, div {
