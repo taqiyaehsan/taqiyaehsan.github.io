@@ -48,9 +48,13 @@ h1 {
 .top_profile {
 
     float: left;
-    padding: 1px;
-    border: 1px solid #555;
+    padding-top: 9px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 3px; 
+    border: 1px solid #555; 
 }
+
 
 
 .top {
