@@ -34,7 +34,7 @@ a {
 
 .top {
     position: relative;
-    width: 300%; 
+    width: 100%; 
     height: auto;
     margin-left: auto;
     margin-top: auto;
@@ -85,7 +85,8 @@ a {
     width: 95%;
     height: auto;
     margin-left: auto;
-    margin-right: auto;   
+    margin-right: auto; 
+    padding-bottom: 0px;   
 }
 
 .about_me {
@@ -107,19 +108,20 @@ a {
 
 .middle {
     margin-top: auto;
-    padding-top: 18px; 
     position: relative;
-    width: 95%; 
+    width: 95%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    line-height: 1.6;   
+    line-height: 1.6;  
+    text-align: left; 
 }
 
 .projects_title {
     font-size: 28px; 
     font-weight: 350; 
     padding-bottom: 0px;
+    padding-top: 45px; 
     margin-bottom: 0%;
     padding-left: 2%;
     text-decoration: bold;
@@ -129,7 +131,7 @@ a {
     font-size: 26px;
     font-weight: 75;
     padding-top: 0px; 
-    padding-left: 20px;
+    padding-left: 2%;
     padding-bottom: 0px; 
 }
 
@@ -137,7 +139,7 @@ a {
     font-size: 20px;
     font-weight: 400;
     padding-top: 0px; 
-    padding-left: 20px;
+    padding-left: 2%;
 }
 
 .projects_details {
@@ -167,14 +169,14 @@ a {
     font-size: 20px;
     font-weight: 200;
     padding-top: 0px; 
-    padding-left: 20px;    
+    padding-left: 2%;    
 }
 
 .course {
     font-size: 18px;
     font-weight: 400;
     padding-top: 0px; 
-    padding-left: 20px;
+    padding-left: 2%;
 }
 
 .course_details {
@@ -185,12 +187,14 @@ a {
     padding-left: 2%;
     line-height: 1.5; 
 }
+
 .honors {
     font-size: 18px;
     font-weight: 200;
     padding-top: 0px; 
-    padding-left: 20px;
+    padding-left: 2%;
 }
+
 .copyright {
     font-size: 12px;
     font-weight: 100;
