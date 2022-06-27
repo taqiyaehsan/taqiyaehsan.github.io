@@ -1,3 +1,3 @@
 #### This is my personal website hosted on GitHub
 
-##### URL: taqiyaehsan.github.io
+##### https://taqiyaehsan.github.io/ 
