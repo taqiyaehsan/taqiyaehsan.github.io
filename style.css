@@ -128,15 +128,15 @@ a {
 }
 
 .year {
-    font-size: 26px;
-    font-weight: 75;
+    font-size: 20px;
+    font-weight: 200;
     padding-top: 0px; 
     padding-left: 2%;
-    padding-bottom: 0px; 
+    padding-bottom: 0%;  
 }
 
 .project {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     padding-top: 0px; 
     padding-left: 2%;
