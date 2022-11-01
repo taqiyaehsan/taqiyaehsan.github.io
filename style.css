@@ -205,6 +205,7 @@ a {
     margin-bottom: 0%;
     padding-left: 2%;
     text-decoration: bold; 
+    position: relative;
 }
 
 .teach_role{
