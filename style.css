@@ -144,7 +144,7 @@ a {
 .project2{
     font-size: 25px;
     font-weight: 400;
-    padding-top: 10%; 
+    padding-top: 0%; 
     padding-left: 2%;
 }
 
@@ -169,6 +169,13 @@ a {
     padding-left: 2%;
 }
 
+.project6 {
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 0%;
+    padding-left: 2%;
+}
+
 .proj_pic {
     padding-right: 2%;
     float: left; 
@@ -190,10 +197,26 @@ a {
     padding-left: 2%;
 }
 
-.year {
+.THREE {
     font-size: 20px;
     font-weight: 200;
-    padding-top: 0px; 
+    padding-top: 0%; 
+    padding-left: 2%;
+    padding-bottom: 0%;  
+}
+
+.TWO {
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 15%; 
+    padding-left: 2%;
+    padding-bottom: 0%;  
+}
+
+.ONE {
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 10%; 
     padding-left: 2%;
     padding-bottom: 0%;  
 }
@@ -216,7 +239,7 @@ a {
 }
 
 
-.tech_role{
+/* .tech_role{
     font-size: 20px;
     font-weight: 400;
     padding-top: 0%; 
@@ -228,7 +251,7 @@ a {
     font-weight: 400;
     padding-top: 5%; 
     padding-left: 2%;    
-}
+} */
 
 .course {
     font-size: 18px;
