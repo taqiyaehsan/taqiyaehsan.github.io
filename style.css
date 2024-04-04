@@ -33,7 +33,7 @@ a {
 
 .top_content {
     position: relative;
-    width: 100%; 
+    width: 98%; 
     height: auto;
     padding-top: 2%;
     line-height: 2;
@@ -43,7 +43,7 @@ a {
 
 .top {
     position: relative;
-    width: 98%; 
+    width: 100%; 
     height: auto;
     margin-left: auto;
     margin-top: auto;
@@ -62,7 +62,7 @@ a {
     margin-top: auto;
     padding-top: 5%; 
     position: relative;
-    width: 100%;
+    width: 95%;
     height: auto;
     margin-left: auto;
     margin-right: auto; 
@@ -81,7 +81,7 @@ a {
 .middle {
     margin-top: auto;
     position: relative;
-    width: 100%;
+    width: 95%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
