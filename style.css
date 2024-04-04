@@ -70,7 +70,7 @@ a {
 }
 
 .about_me_bio {
-    text-align: justified;
+    text-align: left;
     font-size: 18px;
     font-weight: 200;
     padding-top: 1%; 
