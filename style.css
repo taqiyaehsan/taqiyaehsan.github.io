@@ -37,8 +37,8 @@ a {
     height: auto;
     padding-top: 2%;
     line-height: 2;
-    padding-left: 20%;
     margin-left: auto;
+    text-align: justify;
 }
 
 .top {
