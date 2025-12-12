@@ -15,6 +15,14 @@
       ]
     },
     {
+      "title": "Urban sensing for human-centered systems: A modular edge framework for real-time interaction",
+      "authors": "N. S. Pargoo, M. Ghasemi, S. Xia, M. K. Turkcan, <b>T. Ehsan</b>, C. Zang, Y. Sun, J. Ghaderi, G. Zussman, Z. Kostic, and J. Ortiz",
+      "venue": "ACM SenSys 2025",
+      "links": [
+        { "text": "Paper", "url": "https://dl.acm.org/doi/pdf/10.1145/3722570.3726890" }
+      ]
+    },
+    {
       "title": "ComorbiViz: A tool for visualizing comorbidity risks and costs associated with obesity",
       "authors": "<b>T. Ehsan</b>, H. Senthilkumar, A. Uddin, S. Bansal, S. Motlani, J. Canevari, and S. Haghani",
       "venue": "International Conference on e-Health and Bioengineering, Springer, 2023",
