@@ -1,0 +1,157 @@
+{
+  "publications": [
+    {
+      "title": "PolicyGRID: Causal discovery for adaptive policy optimization in embodied agents (student abstract)",
+      "authors": "<b>T. Ehsan</b>, S. Xia, and J. Ortiz",
+      "venue": "AAAI 2026 (to appear)",
+      "links": []
+    },
+    {
+      "title": "Grid: Graph-based reasoning for intervention and discovery in built environments",
+      "authors": "<b>T. Ehsan</b>, S. Xia, and J. Ortiz",
+      "venue": "arXiv preprint arXiv:2509.16397, 2025",
+      "links": [
+        { "text": "arXiv", "url": "https://arxiv.org/abs/2509.16397" }
+      ]
+    },
+    {
+      "title": "PolicyGRID: Acting to understand, understanding to act",
+      "authors": "<b>T. Ehsan</b>, S. Xia, and J. Ortiz",
+      "venue": "NeurIPS 2025 Workshop on Embodied World Models",
+      "links": [
+        { "text": "OpenReview", "url": "https://openreview.net/forum?id=SqaOyB89rE" }
+      ]
+    },
+    {
+      "title": "The streetscape application services stack (sass): Towards a distributed sensing architecture for urban applications",
+      "authors": "N. S. Pargoo, M. Ghasemi, S. Xia, M. K. Turkcan, <b>T. Ehsan</b>, C. Zang, Y. Sun, J. Ghaderi, G. Zussman, Z. Kostic, and J. Ortiz",
+      "venue": "arXiv preprint arXiv:2411.19714, 2024",
+      "links": [
+        { "text": "arXiv", "url": "https://arxiv.org/pdf/2411.19714" }
+      ]
+    },
+    {
+      "title": "Vchar: Variance-driven complex human activity recognition framework with generative representation",
+      "authors": "Y. Sun, N. S. Pargoo, <b>T. Ehsan</b>, Z. Zhang, and J. Ortiz",
+      "venue": "arXiv preprint arXiv:2407.03291, 2024",
+      "links": [
+        { "text": "arXiv", "url": "https://arxiv.org/abs/2407.03291" }
+      ]
+    },
+    {
+      "title": "Comorbiviz: A tool for visualizing comorbidity risks and costs associated with obesity",
+      "authors": "<b>T. Ehsan</b>, H. Senthilkumar, A. Uddin, S. Bansal, S. Motlani, J. Canevari, and S. Haghani",
+      "venue": "International Conference on e-Health and Bioengineering, Springer, 2023",
+      "links": [
+        { "text": "Paper", "url": "https://link.springer.com/chapter/10.1007/978-3-031-62502-2_62" }
+      ]
+    },
+    {
+      "title": "Towards sensing urban-scale covid-19 policy compliance in new york city",
+      "authors": "T. Chowdhury, A. Bhatti, I. Mandel, <b>T. Ehsan</b>, W. Ju, and J. Ortiz",
+      "venue": "ACM BuildSys 2021",
+      "links": [
+        { "text": "Paper", "url": "https://doi.org/10.1145/3486611.3491123" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Machine Causation",
+      "description": "Developing an end-to-end causal discovery pipeline combining statistical methods with LLM-based reasoning to identify causal relationships through hypothesis generation and iterative validation.",
+      "period": "May 2024 – Present",
+      "affiliation": "NIH BRAIN Initiative",
+      "links": [
+        { "text": "PPT", "url": "docs/machine_causation_giants.pdf" }
+      ]
+    },
+    {
+      "title": "BBQS-CAMERA",
+      "description": "Developing a hardware/software framework of multimodal models for inference of anxiety state and memory efficiency from behavioral biomarkers.",
+      "period": "January 2024 – Present",
+      "affiliation": "NIH BRAIN Initiative",
+      "links": [
+        { "text": "Abstract", "url": "https://reporter.nih.gov/project-details/10801782" },
+        { "text": "Presentation", "url": "docs/nih-camera-ppt.pdf" }
+      ]
+    },
+    {
+      "title": "Enhanced Visual Awareness for Socially Cognizant Robot",
+      "description": "Developed a real-time multi-object tracking system integrating YOLOv8 detection, OC-SORT tracking and Kalman filters. Integrated enhanced visual awareness system into campus guide robot via ROS2 nodes.",
+      "period": "September – December 2024",
+      "affiliation": "SOCRATES (NSF-NRT)",
+      "links": [
+        { "text": "Paper", "url": "docs/DesignOfSCR_CampusGuideBot_final.pdf" },
+        { "text": "Presentation", "url": "https://www.dropbox.com/scl/fi/jwsya8d5nridf6e51zwyz/RoboticDesign2024_final_presentation.mp4?rlkey=8vzlj7vmau12wczwmygwqindm&dl=0" }
+      ]
+    },
+    {
+      "title": "AI Agents for Smart Streetscapes",
+      "description": "Developing a naïve pipeline to infer accelerometer readings from video footage of people on a crosswalk. Assisting data collection and development of a cross-modal inference model.",
+      "period": "September – December 2023",
+      "affiliation": "NSF Center for Smart Streetscapes (CS3)",
+      "links": [
+        { "text": "Report", "url": "docs/Final_Project.pdf" },
+        { "text": "Poster", "url": "docs/ML4IoT_poster_Ehsan.pdf" }
+      ]
+    },
+    {
+      "title": "Visual Prompting for Depth Estimation",
+      "description": "Studied prompting techniques for computer vision, specifically for depth estimation. Developed training code and fine-tuned hyper-parameters for training a visual prompt on top of pre-trained models.",
+      "period": "Summer – Fall 2022",
+      "affiliation": "MIT CSAIL",
+      "links": [
+        { "text": "Poster", "url": "docs/MSRP Poster.pdf" }
+      ]
+    }
+  ],
+  "teaching": [
+    {
+      "role": "Workshop Facilitator",
+      "organization": "Rutgers Learning Centers",
+      "details": "Workshops on metacognitive learning strategies, sustaining focus and motivation, effective time management, overcoming procrastination, and effective study practices",
+      "period": "Fall 2024 – Present"
+    },
+    {
+      "role": "Academic Skills Instructor",
+      "organization": "Rutgers Learning Centers",
+      "details": "<a href='https://learningcenters.rutgers.edu/register-workshops#:~:text=Graduate%20Workshop%20Series-,Back,-on%20Track%20Support'>Back on Track Program</a> (4-week support group for students facing academic challenges)",
+      "period": "Fall 2024 – Present"
+    },
+    {
+      "role": "Undergraduate Teaching Assistant",
+      "course": "Data Structures (CS112), Rutgers University",
+      "supervisor": "<a href='https://ana-paula-centeno.cs.rutgers.edu/'>Dr. Ana Paula Centeno</a>",
+      "period": "Fall 2022 – Spring 2023",
+      "extra": "<a href='docs/mid-semester eval.pdf'>Student Evaluation</a>"
+    },
+    {
+      "role": "Learning Assistant",
+      "course": "Honors College Forum (SAS125), Rutgers University",
+      "supervisor": "<a href='https://honorscollege.rutgers.edu/honors-college-forum/teaching-fellows/talia-robbins'>Dr. Talia Robbins</a>",
+      "period": "Fall 2020 – Spring 2022"
+    }
+  ],
+  "reviews": [
+    {
+      "title": "Spider-Man: Across the Spider-Verse",
+      "image": "images/reviews/497631-spider-man-across-the-spider-verse-0-2000-0-3000-crop.jpg",
+      "url": "https://letterboxd.com/taqiya/film/spider-man-across-the-spider-verse/"
+    },
+    {
+      "title": "Past Lives",
+      "image": "images/reviews/591053-past-lives-0-2000-0-3000-crop.jpg",
+      "url": "https://letterboxd.com/taqiya/film/past-lives/"
+    },
+    {
+      "title": "Harry Potter and the Deathly Hallows: Part 1",
+      "image": "images/reviews/harry-potter-and-the-deathly-hallows-part-i-original-0-2000-0-3000-crop.jpg",
+      "url": "https://boxd.it/aVDyMz"
+    },
+    {
+      "title": "Materialists",
+      "image": "images/reviews/1024562-materialists-0-2000-0-3000-crop.jpg",
+      "url": "https://letterboxd.com/taqiya/film/materialists/"
+    }
+  ]
+}
