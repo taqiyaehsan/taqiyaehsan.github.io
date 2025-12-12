@@ -1,5 +1,5 @@
 {
-  "publications": [
+  "selectedPublications": [
     {
       "title": "PolicyGRID: Causal discovery for adaptive policy optimization in embodied agents (student abstract)",
       "authors": "<b>T. Ehsan</b>, S. Xia, and J. Ortiz",
@@ -7,39 +7,15 @@
       "links": []
     },
     {
-      "title": "Grid: Graph-based reasoning for intervention and discovery in built environments",
-      "authors": "<b>T. Ehsan</b>, S. Xia, and J. Ortiz",
-      "venue": "arXiv preprint arXiv:2509.16397, 2025",
-      "links": [
-        { "text": "arXiv", "url": "https://arxiv.org/abs/2509.16397" }
-      ]
-    },
-    {
       "title": "PolicyGRID: Acting to understand, understanding to act",
       "authors": "<b>T. Ehsan</b>, S. Xia, and J. Ortiz",
       "venue": "NeurIPS 2025 Workshop on Embodied World Models",
       "links": [
-        { "text": "OpenReview", "url": "https://openreview.net/forum?id=SqaOyB89rE" }
+        { "text": "Paper", "url": "https://openreview.net/forum?id=SqaOyB89rE" }
       ]
     },
     {
-      "title": "The streetscape application services stack (sass): Towards a distributed sensing architecture for urban applications",
-      "authors": "N. S. Pargoo, M. Ghasemi, S. Xia, M. K. Turkcan, <b>T. Ehsan</b>, C. Zang, Y. Sun, J. Ghaderi, G. Zussman, Z. Kostic, and J. Ortiz",
-      "venue": "arXiv preprint arXiv:2411.19714, 2024",
-      "links": [
-        { "text": "arXiv", "url": "https://arxiv.org/pdf/2411.19714" }
-      ]
-    },
-    {
-      "title": "Vchar: Variance-driven complex human activity recognition framework with generative representation",
-      "authors": "Y. Sun, N. S. Pargoo, <b>T. Ehsan</b>, Z. Zhang, and J. Ortiz",
-      "venue": "arXiv preprint arXiv:2407.03291, 2024",
-      "links": [
-        { "text": "arXiv", "url": "https://arxiv.org/abs/2407.03291" }
-      ]
-    },
-    {
-      "title": "Comorbiviz: A tool for visualizing comorbidity risks and costs associated with obesity",
+      "title": "ComorbiViz: A tool for visualizing comorbidity risks and costs associated with obesity",
       "authors": "<b>T. Ehsan</b>, H. Senthilkumar, A. Uddin, S. Bansal, S. Motlani, J. Canevari, and S. Haghani",
       "venue": "International Conference on e-Health and Bioengineering, Springer, 2023",
       "links": [
@@ -55,6 +31,32 @@
       ]
     }
   ],
+  "arxivedPublications": [
+    {
+      "title": "GRID: Graph-based reasoning for intervention and discovery in built environments",
+      "authors": "<b>T. Ehsan</b>, S. Xia, and J. Ortiz",
+      "venue": "arXiv preprint arXiv:2509.16397, 2025",
+      "links": [
+        { "text": "arXiv", "url": "https://arxiv.org/abs/2509.16397" }
+      ]
+    },
+    {
+      "title": "The streetscape application services stack (SASS): Towards a distributed sensing architecture for urban applications",
+      "authors": "N. S. Pargoo, M. Ghasemi, S. Xia, M. K. Turkcan, <b>T. Ehsan</b>, C. Zang, Y. Sun, J. Ghaderi, G. Zussman, Z. Kostic, and J. Ortiz",
+      "venue": "arXiv preprint arXiv:2411.19714, 2024",
+      "links": [
+        { "text": "arXiv", "url": "https://arxiv.org/pdf/2411.19714" }
+      ]
+    },
+    {
+      "title": "Vchar: Variance-driven complex human activity recognition framework with generative representation",
+      "authors": "Y. Sun, N. S. Pargoo, <b>T. Ehsan</b>, Z. Zhang, and J. Ortiz",
+      "venue": "arXiv preprint arXiv:2407.03291, 2024",
+      "links": [
+        { "text": "arXiv", "url": "https://arxiv.org/abs/2407.03291" }
+      ]
+    }
+  ],
   "projects": [
     {
       "title": "Machine Causation",
@@ -62,7 +64,7 @@
       "period": "May 2024 – Present",
       "affiliation": "NIH BRAIN Initiative",
       "links": [
-        { "text": "PPT", "url": "docs/machine_causation_giants.pdf" }
+        { "text": "Presentation", "url": "docs/machine_causation_giants.pdf" }
       ]
     },
     {
@@ -92,7 +94,8 @@
       "affiliation": "NSF Center for Smart Streetscapes (CS3)",
       "links": [
         { "text": "Report", "url": "docs/Final_Project.pdf" },
-        { "text": "Poster", "url": "docs/ML4IoT_poster_Ehsan.pdf" }
+        { "text": "Poster", "url": "docs/ML4IoT_poster_Ehsan.pdf" },
+        { "text": "Presentation", "url": "https://rutgers.app.box.com/s/h1wfhbwqprfs5um58zqjhpm46dqemsrj" }
       ]
     },
     {
@@ -107,28 +110,34 @@
   ],
   "teaching": [
     {
-      "role": "Workshop Facilitator",
-      "organization": "Rutgers Learning Centers",
-      "details": "Workshops on metacognitive learning strategies, sustaining focus and motivation, effective time management, overcoming procrastination, and effective study practices",
+      "role": "Academic Coach",
+      "organization": "<a href='https://learningcenters.rutgers.edu/student-services/academic-coaching' target='_blank'>Rutgers Learning Centers</a>",
+      "details": "One-on-one coaching for students on academic planning, study strategies, time management, and navigating academic challenges",
+      "period": "Fall 2024 – Present"
+    },
+    {
+      "role": "Academic Success Workshop Facilitator",
+      "organization": "<a href='https://learningcenters.rutgers.edu/student-services/academic-coaching' target='_blank'>Rutgers Learning Centers</a>",
+      "details": "<a href='https://learningcenters.rutgers.edu/student-services/academic-coaching/academic-success-workshops' target='_blank'>Workshops</a> on metacognitive learning strategies, sustaining focus and motivation, effective time management, overcoming procrastination, and effective study practices",
       "period": "Fall 2024 – Present"
     },
     {
       "role": "Academic Skills Instructor",
       "organization": "Rutgers Learning Centers",
-      "details": "<a href='https://learningcenters.rutgers.edu/register-workshops#:~:text=Graduate%20Workshop%20Series-,Back,-on%20Track%20Support'>Back on Track Program</a> (4-week support group for students facing academic challenges)",
+      "details": "<a href='https://learningcenters.rutgers.edu/register-workshops#:~:text=Graduate%20Workshop%20Series-,Back,-on%20Track%20Support' target='_blank'>Back on Track Program</a> (4-week support group for students facing academic challenges)",
       "period": "Fall 2024 – Present"
     },
     {
       "role": "Undergraduate Teaching Assistant",
       "course": "Data Structures (CS112), Rutgers University",
-      "supervisor": "<a href='https://ana-paula-centeno.cs.rutgers.edu/'>Dr. Ana Paula Centeno</a>",
+      "supervisor": "<a href='https://ana-paula-centeno.cs.rutgers.edu/' target='_blank'>Dr. Ana Paula Centeno</a>",
       "period": "Fall 2022 – Spring 2023",
-      "extra": "<a href='docs/mid-semester eval.pdf'>Student Evaluation</a>"
+      "extra": "<a href='docs/mid-semester eval.pdf' target='_blank'>Student Evaluation</a>"
     },
     {
       "role": "Learning Assistant",
       "course": "Honors College Forum (SAS125), Rutgers University",
-      "supervisor": "<a href='https://honorscollege.rutgers.edu/honors-college-forum/teaching-fellows/talia-robbins'>Dr. Talia Robbins</a>",
+      "supervisor": "<a href='https://honorscollege.rutgers.edu/honors-college-forum/teaching-fellows/talia-robbins' target='_blank'>Dr. Talia Robbins</a>",
       "period": "Fall 2020 – Spring 2022"
     }
   ],
@@ -149,9 +158,9 @@
       "url": "https://boxd.it/aVDyMz"
     },
     {
-      "title": "Materialists",
-      "image": "images/reviews/1024562-materialists-0-2000-0-3000-crop.jpg",
-      "url": "https://letterboxd.com/taqiya/film/materialists/"
+      "title": "Wicked: For Good",
+      "image": "images/reviews/871148-wicked-for-good-0-2000-0-3000-crop.jpg",
+      "url": "https://letterboxd.com/taqiya/film/wicked-for-good/"
     }
   ]
 }

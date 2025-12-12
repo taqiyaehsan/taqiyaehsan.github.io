@@ -10,66 +10,83 @@
 </head>
 
 <body>
+    <header class="fixed-nav">
+        <a href="#" class="nav-name">Taqiya Ehsan</a>
+        <nav class="section-nav">
+            <a href="#bio">bio</a> · 
+            <a href="#research">papers</a> · 
+            <a href="#projects">projects</a> · 
+            <a href="#teaching">teaching</a> · 
+            <a href="#reviews">viewings</a>
+        </nav>
+    </header>
+
     <section class="top">
         <img class="profile_pic" src="images/pfp.jpg" alt="Taqiya Ehsan">
         <div class="top_content">
             <b>Taqiya Ehsan</b>
-            <p style="margin-bottom: 0.5rem;">PhD Student, Rutgers ECE</p>
-            <a href="mailto:taqiya.ehsan@rutgers.edu">taqiya.ehsan@rutgers.edu</a>
-            <p style="margin-top: 0.8rem;">
-                <a href="docs/Taqiya_CV.pdf">CV</a> /
-                <a href="https://github.com/taqiyaehsan">GitHub</a> / 
-                <a href="https://scholar.google.com/citations?user=rS8vJcEAAAAJ&hl=en">Google Scholar</a> /
-                <a href="https://linkedin.com/in/taqiya-ehsan">LinkedIn</a>
+            <p class="title-line">PhD Student, Rutgers ECE</p>
+            <a href="mailto:taqiya.ehsan@rutgers.edu" target="_blank">taqiya.ehsan@rutgers.edu</a>
+            <p class="links-line">
+                <a href="docs/Taqiya_CV.pdf" target="_blank">CV</a> /
+                <a href="https://github.com/taqiyaehsan" target="_blank">GitHub</a> / 
+                <a href="https://scholar.google.com/citations?user=rS8vJcEAAAAJ&hl=en" target="_blank">Google Scholar</a> /
+                <a href="https://linkedin.com/in/taqiya-ehsan" target="_blank">LinkedIn</a>
             </p>
         </div>
     </section>
     
-    <section class="Bio"> 
+    <section class="Bio" id="bio"> 
         <p class="about_me_bio">
             Taqiya is a PhD student in Electrical and Computer Engineering at 
-            <a href="https://www.rutgers.edu/">Rutgers University</a>, advised by 
-            <a href="http://jorgeortizphd.info/">Jorge Ortiz</a>. 
-            Her research develops socially cognizant multimodal systems for smart environments, 
-            integrating Multimodal Machine Learning and Causal Reasoning. 
-            She works on developing methods that fuse behavioral, physiological, and environmental signals to 
-            understand human state and improve autonomous decision-making in intelligent spaces. 
-            Her broader goal is to advance human-centered AI/ML that supports well-being and 
-            sustainable interaction in everyday environments.
+            <a href="https://www.rutgers.edu/" target="_blank">Rutgers University</a>, advised by 
+            <a href="http://jorgeortizphd.info/" target="_blank">Jorge Ortiz</a>. 
+            Her research focuses on developing socially cognizant multimodal systems for smart environments by integrating 
+            Multimodal Machine Learning with Causal Reasoning. 
+            She designs methods that combine behavioral, physiological, and environmental signals to infer human state and 
+            support autonomous, context-aware decision-making in intelligent spaces. 
+            Her broader goal is to advance human-centered AI/ML that enhances well-being and enables sustainable interaction 
+            within everyday environments.
         </p>
 
         <p class="about_me_bio" style="margin-top: 1.5rem;">
-            She completed her undergraduate studies in ECE and Computer Science at Rutgers 
-            through the <a href="https://honorscollege.rutgers.edu/">Honors College</a>. 
-            She completed her post-secondary education in Bangladesh, 
-            where she was born and raised.
+            She completed her undergraduate studies in Electrical and Computer Engineering and Computer Science at Rutgers 
+            through the <a href="https://honorscollege.rutgers.edu/" target="_blank">Honors College</a>. 
+            She completed her post-secondary education in Bangladesh, where she was born and raised.
         </p>
-
     </section>
+
     
     <section class="middle">
-        <div>
+        <div id="research">
             <h2 class="section_title">research</h2>
             
             <h3 class="subsection_title">selected publications</h3>
-            <div id="publications-container"></div>
+            <div id="selected-publications-container"></div>
             
-            <h3 class="subsection_title" style="margin-top: 2.5rem;">projects (current and past)</h3>
+            <div class="section-divider"></div>
+            
+            <h3 class="subsection_title">arXived publications</h3>
+            <div id="arxived-publications-container"></div>
+            
+            <div class="section-divider"></div>
+            
+            <h3 class="subsection_title" id="projects">projects (current and past)</h3>
             <div id="projects-container"></div>
         </div>
      
-        <div style="margin-top: 3rem;">
-            <h2 class="section_title">teaching</h2>
+        <div id="teaching" style="margin-top: 3rem;">
+            <h2 class="section_title">teaching & mentoring</h2>
             <div id="teaching-container"></div>
         </div>
 
-        <div class="reviews">
+        <div id="reviews" class="reviews">
             <strong>I review movies for fun!</strong>
-            <div id="reviews-grid" class="reviews-grid"></div>
-            <p style="margin-top: 1rem;">
-                <a href="https://letterboxd.com/taqiya/">letterboxd.com/taqiya</a> · 
-                <a href="https://www.instagram.com/taqiyasmoviebytes/">@taqiyasmoviebytes</a>
+            <p style="margin-top: 0.5rem; margin-bottom: 1rem;">
+                <a href="https://letterboxd.com/taqiya/" target="_blank">letterboxd.com/taqiya</a> · 
+                <a href="https://www.instagram.com/taqiyasmoviebytes/" target="_blank">@taqiyasmoviebytes</a>
             </p>
+            <div id="reviews-grid" class="reviews-grid"></div>
         </div>
     </section>
     

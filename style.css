@@ -24,6 +24,39 @@ body {
     line-height: 1.65;
     font-size: 16px;
     font-weight: 300;
+    padding-top: 60px;
+}
+
+/* Fixed Navigation */
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid var(--border-color);
+    z-index: 1000;
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.nav-name:hover {
+    color: var(--link-color);
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
 }
 
 /* Main container */
@@ -53,9 +86,10 @@ body {
 
 /* Header */
 .top {
-    display: flex;
+    display: grid;
+    grid-template-columns: 180px 1fr;
     gap: 2.5rem;
-    align-items: flex-start;
+    align-items: start;
 }
 
 .profile_pic {
@@ -68,7 +102,7 @@ body {
 
 .top_content {
     flex: 1;
-    padding-top: 1rem;
+    padding-top: 0;
 }
 
 .top_content b {
@@ -76,14 +110,25 @@ body {
     font-weight: 700;
     font-family: 'Lato', sans-serif;
     display: block;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.4rem;
     letter-spacing: -0.01em;
+}
+
+.title-line {
+    margin: 0 0 0.4rem 0 !important;
+    color: var(--text-color) !important;
+    font-size: 18px !important;
+    font-weight: 350;
 }
 
 .top_content p {
     margin: 0.5rem 0;
     color: var(--secondary-text);
     font-size: 15px;
+}
+
+.links-line {
+    margin-top: 0.5rem !important;
 }
 
 .top_content a {
@@ -94,6 +139,25 @@ body {
 
 .top_content a:hover {
     text-decoration: underline;
+}
+
+/* Section Navigation */
+.section-nav {
+    text-align: right;
+    font-size: 15px;
+    font-weight: 400;
+    word-spacing: 0.5rem;
+}
+
+.section-nav a {
+    color: var(--secondary-text);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.section-nav a:hover {
+    color: var(--link-color);
+    text-decoration: none;
 }
 
 /* Bio */
@@ -130,6 +194,14 @@ body {
     margin-bottom: 1.5rem;
     color: var(--secondary-text);
     text-transform: lowercase;
+}
+
+/* Section Divider */
+.section-divider {
+    width: 200px;
+    height: 1px;
+    background-color: var(--border-color);
+    margin: 2.5rem auto;
 }
 
 /* Publications */
@@ -241,14 +313,14 @@ body {
     font-weight: 400;
     font-size: 16px;
     display: block;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .reviews-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
-    margin: 1.25rem 0;
+    margin: 0;
 }
 
 .review-item {
@@ -288,19 +360,34 @@ body {
 
 /* Responsive */
 @media (max-width: 768px) {
+    .fixed-nav {
+        padding: 1rem 1.5rem;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .nav-name {
+        font-size: 16px;
+    }
+    
     .top, .Bio, .middle {
         padding: 2rem 1.5rem;
     }
     
     .top {
-        flex-direction: column;
-        align-items: center;
+        grid-template-columns: 1fr;
+        justify-items: center;
         text-align: center;
     }
     
     .profile_pic {
         width: 160px;
         height: 160px;
+    }
+    
+    .section-nav {
+        text-align: center;
+        font-size: 14px;
     }
     
     .reviews-grid {

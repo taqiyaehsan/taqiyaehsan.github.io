@@ -4,7 +4,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         const response = await fetch('data/projects.json');
         const data = await response.json();
         
-        renderPublications(data.publications);
+        renderSelectedPublications(data.selectedPublications);
+        renderArxivedPublications(data.arxivedPublications);
         renderProjects(data.projects);
         renderTeaching(data.teaching);
         renderReviews(data.reviews);
@@ -13,8 +14,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 });
 
-function renderPublications(publications) {
-    const container = document.getElementById('publications-container');
+function renderSelectedPublications(publications) {
+    const container = document.getElementById('selected-publications-container');
     
     publications.forEach(pub => {
         const pubDiv = document.createElement('div');
@@ -30,7 +31,35 @@ function renderPublications(publications) {
         if (pub.links && pub.links.length > 0) {
             html += '<br>';
             pub.links.forEach((link, index) => {
-                html += `<a href="${link.url}">[${link.text}]</a> `;
+                html += `<a href="${link.url}" target="_blank" rel="noopener noreferrer">[${link.text}]</a> `;
+            });
+        }
+        
+        html += '</p>';
+        
+        pubDiv.innerHTML = html;
+        container.appendChild(pubDiv);
+    });
+}
+
+function renderArxivedPublications(publications) {
+    const container = document.getElementById('arxived-publications-container');
+    
+    publications.forEach(pub => {
+        const pubDiv = document.createElement('div');
+        pubDiv.className = 'publication';
+        
+        let html = `
+            <p>
+                <b>${pub.title}</b>
+                <br>${pub.authors}
+                <br><i>${pub.venue}</i>
+        `;
+        
+        if (pub.links && pub.links.length > 0) {
+            html += '<br>';
+            pub.links.forEach((link, index) => {
+                html += `<a href="${link.url}" target="_blank" rel="noopener noreferrer">[${link.text}]</a> `;
             });
         }
         
@@ -58,7 +87,7 @@ function renderProjects(projects) {
         if (project.links && project.links.length > 0) {
             html += '<br>';
             project.links.forEach((link, index) => {
-                html += `<a href="${link.url}">[${link.text}]</a> `;
+                html += `<a href="${link.url}" target="_blank" rel="noopener noreferrer">[${link.text}]</a> `;
             });
         }
         
