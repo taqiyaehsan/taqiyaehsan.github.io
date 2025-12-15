@@ -137,7 +137,7 @@
     },
     {
       "role": "Guest Speaker: Object Detection & Tracking Workshop",
-      "course": "<a href='https://robotics.rutgers.edu/pages/n2e_robotics.html`>Rutgers N2E Robotics</a>",
+      "course": "<a href='https://robotics.rutgers.edu/pages/n2e_robotics.html' target='_blank'>Rutgers N2E Robotics</a>",
       "period": "Spring 2025",
       "extra": "<a href='https://www.youtube.com/watch?v=Y3sXMw_NO6U' target='_blank'>Tutorial</a>"
     },
