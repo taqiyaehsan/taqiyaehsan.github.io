@@ -71,6 +71,7 @@
       "description": "Developing an end-to-end causal discovery pipeline combining statistical methods with LLM-based reasoning to identify causal relationships through hypothesis generation and iterative validation.",
       "period": "May 2024 – Present",
       "affiliation": "NIH BRAIN Initiative",
+      "category": "research",
       "links": [
         { "text": "Presentation", "url": "docs/machine_causation_giants.pdf" }
       ]
@@ -80,19 +81,10 @@
       "description": "Developing a hardware/software framework of multimodal models for inference of anxiety state and memory efficiency from behavioral biomarkers.",
       "period": "January 2024 – Present",
       "affiliation": "NIH BRAIN Initiative",
+      "category": "research",
       "links": [
         { "text": "Abstract", "url": "https://reporter.nih.gov/project-details/10801782" },
         { "text": "Presentation", "url": "docs/nih-camera-ppt.pdf" }
-      ]
-    },
-    {
-      "title": "Enhanced Visual Awareness for Socially Cognizant Robot",
-      "description": "Developed a real-time multi-object tracking system integrating YOLOv8 detection, OC-SORT tracking and Kalman filters. Integrated enhanced visual awareness system into campus guide robot via ROS2 nodes.",
-      "period": "September – December 2024",
-      "affiliation": "SOCRATES (NSF-NRT)",
-      "links": [
-        { "text": "Paper", "url": "docs/DesignOfSCR_CampusGuideBot_final.pdf" },
-        { "text": "Presentation", "url": "https://www.dropbox.com/scl/fi/jwsya8d5nridf6e51zwyz/RoboticDesign2024_final_presentation.mp4?rlkey=8vzlj7vmau12wczwmygwqindm&dl=0" }
       ]
     },
     {
@@ -100,6 +92,7 @@
       "description": "Developing a naïve pipeline to infer accelerometer readings from video footage of people on a crosswalk. Assisting data collection and development of a cross-modal inference model.",
       "period": "September – December 2023",
       "affiliation": "NSF Center for Smart Streetscapes (CS3)",
+      "category": "research",
       "links": [
         { "text": "Report", "url": "docs/Final_Project.pdf" },
         { "text": "Poster", "url": "docs/ML4IoT_poster_Ehsan.pdf" },
@@ -111,8 +104,32 @@
       "description": "Studied prompting techniques for computer vision, specifically for depth estimation. Developed training code and fine-tuned hyper-parameters for training a visual prompt on top of pre-trained models.",
       "period": "Summer – Fall 2022",
       "affiliation": "MIT CSAIL",
+      "category": "research",
       "links": [
         { "text": "Poster", "url": "docs/MSRP Poster.pdf" }
+      ]
+    },
+    {
+      "title": "Profiling Communication Bottlenecks in Distributed LLaMA Training",
+      "description": "Characterized TP/CP/PP/DP configurations and pipeline P2P communication patterns for LLaMA-8B training. Developed custom NCCL monitoring infrastructure for Megatron-LM.",
+      "period": "Fall 2025",
+      "affiliation": "Distributed Deep Learning (ECE, Rutgers University)",
+      "category": "course",
+      "links": [
+        { "text": "Report", "url": "docs/Fall2025_DDL_Project_Final (1).pdf" },
+        { "text": "Presentation", "url": "docs/Fall2025_DDL_Project_Final.pdf" },
+        { "text": "GitHub", "url": "https://github.com/khizar-anjum/ddl-project" }
+      ]
+    },
+    {
+      "title": "Enhanced Visual Awareness for Socially Cognizant Robot",
+      "description": "Developed a real-time multi-object tracking system integrating YOLOv8 detection, OC-SORT tracking and Kalman filters. Integrated enhanced visual awareness system into campus guide robot via ROS2 nodes.",
+      "period": "September – December 2024",
+      "affiliation": "SOCRATES (NSF-NRT)",
+      "category": "course",
+      "links": [
+        { "text": "Paper", "url": "docs/DesignOfSCR_CampusGuideBot_final.pdf" },
+        { "text": "Presentation", "url": "https://www.dropbox.com/scl/fi/jwsya8d5nridf6e51zwyz/RoboticDesign2024_final_presentation.mp4?rlkey=8vzlj7vmau12wczwmygwqindm&dl=0" }
       ]
     }
   ],
@@ -134,12 +151,6 @@
       "organization": "Rutgers Learning Centers",
       "details": "<a href='https://learningcenters.rutgers.edu/register-workshops#:~:text=Graduate%20Workshop%20Series-,Back,-on%20Track%20Support' target='_blank'>Back on Track Program</a> (4-week support group for students facing academic challenges)",
       "period": "Fall 2024 – Present"
-    },
-    {
-      "role": "Guest Speaker: Object Detection & Tracking Workshop",
-      "organization": "<a href='https://robotics.rutgers.edu/pages/n2e_robotics.html' target='_blank'>Rutgers N2E Robotics</a>",
-      "details": "<a href='https://www.youtube.com/watch?v=Y3sXMw_NO6U' target='_blank'>Tutorial</a>",
-      "period": "Spring 2025"
     },
     {
       "role": "Undergraduate Teaching Assistant",

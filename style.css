@@ -196,6 +196,16 @@ html {
     text-transform: lowercase;
 }
 
+.subsubsection_title {
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    color: var(--secondary-text);
+    text-transform: lowercase;
+}
+
 /* Section Divider */
 .section-divider {
     width: 100%;

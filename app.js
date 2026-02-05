@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         renderSelectedPublications(data.selectedPublications);
         renderArxivedPublications(data.arxivedPublications);
-        renderProjects(data.projects);
+        renderProjectsByCategory(data.projects);
         renderTeaching(data.teaching);
         renderReviews(data.reviews);
     } catch (error) {
@@ -70,8 +70,9 @@ function renderArxivedPublications(publications) {
     });
 }
 
-function renderProjects(projects) {
-    const container = document.getElementById('projects-container');
+function renderProjectsByCategory(projects) {
+    const researchContainer = document.getElementById('research-projects-container');
+    const courseContainer = document.getElementById('course-projects-container');
     
     projects.forEach(project => {
         const projectDiv = document.createElement('div');
@@ -94,7 +95,12 @@ function renderProjects(projects) {
         html += '</p>';
         
         projectDiv.innerHTML = html;
-        container.appendChild(projectDiv);
+        
+        if (project.category === 'research') {
+            researchContainer.appendChild(projectDiv);
+        } else if (project.category === 'course') {
+            courseContainer.appendChild(projectDiv);
+        }
     });
 }
 
