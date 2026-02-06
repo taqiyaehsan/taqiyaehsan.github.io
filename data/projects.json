@@ -68,9 +68,9 @@
   "projects": [
     {
       "title": "Causal Reasoning for Embodied AI",
-      "description": "Developing an end-to-end causal reasoning framework combining statistical methods with deep learning to enable embodied agents to learn and exploit causal structures in their environments for adaptive decision-making",
+      "description": "Developing an end-to-end causal reasoning framework combining statistical methods with deep learning to enable embodied agents to learn and exploit causal structures in their environments for adaptive decision-making.",
       "period": "May 2024 – Present",
-      "affiliation": "NIH BRAIN Initiative/ NSF CS3",
+      "affiliation": "NIH BRAIN/ NSF CS3",
       "category": "research",
       "links": [
         { "text": "Presentation", "url": "docs/lab_prez_10_3_25.pptx" }
@@ -136,8 +136,7 @@
   "teaching": [
     {
       "role": "Guest Speaker",
-      "course": "Multimodal Machine Learning for Sensing Systems, Rutgers University",
-      "supervisor": "<a href='http://jorgeortizphd.info/' target='_blank'>Dr. Jorge Ortiz</a>",
+      "course": "<a href='https://ece.rutgers.edu/sites/default/files/2024-06/16_332_532%20Multimodal_Learning_for_Sensing_Systems__Syllabus.pdf' target='_blank'>Multimodal Machine Learning for Sensing Systems</a> (16:332:579), Rutgers University",
       "period": "November 2025",
       "extra": "Lecture on causal reasoning for embodied AI · <a href='docs/mml-lecture-11-3.pptx' target='_blank'>Slides</a>"
     },
