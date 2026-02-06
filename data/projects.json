@@ -135,6 +135,13 @@
   ],
   "teaching": [
     {
+      "role": "Guest Speaker",
+      "course": "Multimodal Machine Learning for Sensing Systems, Rutgers University",
+      "supervisor": "<a href='http://jorgeortizphd.info/' target='_blank'>Dr. Jorge Ortiz</a>",
+      "period": "November 2025",
+      "extra": "Lecture on causal reasoning for embodied AI · <a href='docs/mml-lecture-11-3.pptx' target='_blank'>Slides</a>"
+    },
+    {
       "role": "Academic Coach",
       "organization": "<a href='https://learningcenters.rutgers.edu/student-services/academic-coaching' target='_blank'>Rutgers Learning Centers</a>",
       "details": "One-on-one coaching for students on academic planning, study strategies, time management, and navigating academic challenges",
