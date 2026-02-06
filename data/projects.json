@@ -67,13 +67,13 @@
   ],
   "projects": [
     {
-      "title": "Machine Causation",
-      "description": "Developing an end-to-end causal discovery pipeline combining statistical methods with LLM-based reasoning to identify causal relationships through hypothesis generation and iterative validation.",
+      "title": "Causal Reasoning for Embodied AI",
+      "description": "Developing an end-to-end causal reasoning framework combining statistical methods with deep learning to enable embodied agents to learn and exploit causal structures in their environments for adaptive decision-making",
       "period": "May 2024 – Present",
-      "affiliation": "NIH BRAIN Initiative",
+      "affiliation": "NIH BRAIN Initiative/ NSF CS3",
       "category": "research",
       "links": [
-        { "text": "Presentation", "url": "docs/machine_causation_giants.pdf" }
+        { "text": "Presentation", "url": "docs/lab_prez_10_3_25.pptx" }
       ]
     },
     {
