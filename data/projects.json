@@ -112,7 +112,7 @@
     {
       "title": "Profiling Communication Bottlenecks in Distributed LLaMA Training",
       "description": "Characterized TP/CP/PP/DP configurations and pipeline P2P communication patterns for LLaMA-8B training. Developed custom NCCL monitoring infrastructure for Megatron-LM.",
-      "period": "Fall 2025",
+      "period": "September – December 2025",
       "affiliation": "Distributed Deep Learning (ECE, Rutgers University)",
       "category": "course",
       "links": [
