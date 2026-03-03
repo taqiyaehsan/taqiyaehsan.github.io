@@ -114,6 +114,7 @@
       "description": "Team project analyzing 10,000+ AI news headlines across media tiers to investigate how AI transforms human behavior through media framing. Led the causality prong, applying causal discovery methods to identify directional relationships between media sentiment and public perception of AI.",
       "period": "January 2026",
       "affiliation": "<a href='https://sites.rutgers.edu/raise/raise-2026/' target='_blank'>RAISE-26 AI, Informatics & Data Science Competition</a>",
+      "category": "course",
       "links": [
         { "text": "Presentation", "url": "docs/The Attention Heads_ RAISE Master Deck.pptx" },
         { "text": "Notebook", "url": "docs/The Attention Heads_ RAISE Master Colab Notebook.ipynb" }
