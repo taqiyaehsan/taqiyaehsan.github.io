@@ -116,8 +116,8 @@
       "affiliation": "<a href='https://sites.rutgers.edu/raise/raise-2026/' target='_blank'>RAISE-26 AI, Informatics & Data Science Competition</a>",
       "category": "course",
       "links": [
-        { "text": "Presentation", "url": "docs/The Attention Heads_ RAISE Master Deck.pptx" },
-        { "text": "Notebook", "url": "docs/The Attention Heads_ RAISE Master Colab Notebook.ipynb" }
+        { "text": "Presentation", "url": "docs/TheAttentionHeads_RAISE-26MasterDeck.pdf" },
+        { "text": "Notebook", "url": "docs/TheAttentionHeads_ RAISEMasterColabNotebook.ipynb" }
       ]
     },
     {
