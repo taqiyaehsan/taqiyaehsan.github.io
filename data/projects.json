@@ -3,8 +3,10 @@
     {
       "title": "PolicyGRID: Causal discovery for adaptive policy optimization in embodied agents (student abstract)",
       "authors": "<b>T. Ehsan</b>, S. Xia, and J. Ortiz",
-      "venue": "AAAI 2026 (to appear)",
-      "links": []
+      "venue": "AAAI 2026",
+      "links": [
+        { "text": "Abstract", "url": "https://ojs.aaai.org/index.php/AAAI/article/view/42214" },
+        { "text": "Poster", "url": "https://underline.io/lecture/138687-policygrid-causal-discovery-for-adaptive-policy-optimization-in-embodied-agents-student-abstract" }]
     },
     {
       "title": "PolicyGRID: Acting to understand, understanding to act",
