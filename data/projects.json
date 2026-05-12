@@ -1,6 +1,14 @@
 {
   "selectedPublications": [
     {
+      "title": "TraceFix: Repairing Agent Coordination Protocols with TLA+ Counterexamples",
+      "authors": "S. Xia, Q. Li, <b>T. Ehsan</b>, and J. Ortiz",
+      "venue": "ACM CAIS 2026",
+      "links": [
+        { "text": "Paper", "url": "https://arxiv.org/html/2605.07935v1" }
+      ]
+    },
+    {
       "title": "PolicyGRID: Causal discovery for adaptive policy optimization in embodied agents (student abstract)",
       "authors": "<b>T. Ehsan</b>, S. Xia, and J. Ortiz",
       "venue": "AAAI 2026",
