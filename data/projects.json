@@ -156,6 +156,12 @@
   ],
   "teaching": [
     {
+      "role": "Summer Research Mentor",
+      "organization": "<a href='https://www.winlab.rutgers.edu/' target='_blank'>Wireless Information Network Laboratory (WINLAB)</a>, Rutgers University",
+      "details": "Coordinated and mentored undergraduate interns in research methodologies, development environment setup, and project troubleshooting; facilitated communication between interns and faculty advisors",
+      "period": "Summer 2026"
+    },
+    {
       "role": "Guest Speaker",
       "course": "<a href='https://ece.rutgers.edu/sites/default/files/2024-06/16_332_532%20Multimodal_Learning_for_Sensing_Systems__Syllabus.pdf' target='_blank'>Multimodal Machine Learning for Sensing Systems</a> (16:332:579), Rutgers University",
       "period": "November 2025",
