@@ -3,9 +3,9 @@
     {
       "title": "TraceFix: Repairing Agent Coordination Protocols with TLA+ Counterexamples",
       "authors": "S. Xia, Q. Li, <b>T. Ehsan</b>, and J. Ortiz",
-      "venue": "ACM <a href=\"https://www.caisconf.org/\">CAIS</a>2026",
+      "venue": "<a href=\"https://www.caisconf.org/\">ACM CAIS</a>2026",
       "links": [
-        { "text": "Selected as Best Paper", "url": "https://arxiv.org/html/2605.07935v1" }
+        { "text": "Selected as Best Paper", "url": "https://dl.acm.org/doi/10.1145/3786335.3813159" }
       ]
     },
     {
