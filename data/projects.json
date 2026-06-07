@@ -5,7 +5,8 @@
       "authors": "S. Xia, Q. Li, <b>T. Ehsan</b>, and J. Ortiz",
       "venue": "<a href=\"https://www.caisconf.org/\">ACM CAIS 2026</a>",
       "links": [
-        { "text": "Selected as Best Paper", "url": "https://dl.acm.org/doi/10.1145/3786335.3813159" }
+        { "text": "Selected as Best Paper", "url": "https://dl.acm.org/doi/10.1145/3786335.3813159" },
+        { "text": "Blogpost", "url": "https://ortiz.rutgers.edu/blog/tracefix/" }
       ]
     },
     {
