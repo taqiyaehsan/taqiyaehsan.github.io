@@ -123,7 +123,7 @@ function renderTeaching(teaching) {
                 <div class="course">${item.role}</div>
                 <div class="course_details">
                     ${item.course}<br>
-                    Faculty Supervisor: ${item.supervisor} · ${item.period}
+                    ${item.supervisor ? 'Faculty Supervisor: ' + item.supervisor + ' · ' : ''}${item.period}
                     ${item.extra ? '<br>' + item.extra : ''}
                 </div>
             `;
