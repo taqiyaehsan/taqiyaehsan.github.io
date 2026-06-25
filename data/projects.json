@@ -132,6 +132,18 @@
       ]
     },
     {
+      "title": "SAGE: Skeptical Autonomous aGent for Experimentation",
+      "description": "Developed a skeptical agentic framework for autonomous ML experimentation, built on <a href='https://github.com/karpathy/autoresearch' target='_blank'>Karpathy's autoresearch loop</a>. SAGE adds a coherence gate and a causal re-test gate to the standard propose→evaluate→keep/discard cycle, filtering noise before accepting improvements. Evaluated on <a href='https://github.com/yunx-z/MLRC-Bench' target='_blank'>MLRC-Bench</a> Machine Unlearning (<a href='https://www.cs.toronto.edu/~kriz/cifar.html' target='_blank'>CIFAR-10</a>) and local tasks (<a href='https://github.com/zalandoresearch/fashion-mnist' target='_blank'>FashionMNIST</a>, <a href='https://archive.ics.uci.edu/dataset/159/magic+gamma+telescope' target='_blank'>MAGIC</a>). The skeptic agent achieved 2–5× lower false-accept rates vs. a greedy baseline. Team: <b>T. Ehsan</b>, <a href='https://www.linkedin.com/in/luyuan-yang-67b754343/' target='_blank'>L. Yang</a>, <a href='https://sites.google.com/view/musfiqshohan' target='_blank'>M. Rahman</a>, <a href='https://ziwei-jiang.github.io/' target='_blank'>Z. Jiang</a>.",
+      "period": "Summer 2026",
+      "affiliation": "Machine Learning Summer School (MLSS) 2026",
+      "category": "research",
+      "links": [
+        { "text": "Slides", "url": "docs/SAGE-MLSS-Hackathon-2.pdf" },
+        { "text": "GitHub (SAGE)", "url": "https://github.com/taqiyaehsan/SAGE-2026" },
+        { "text": "GitHub (Skeptic Gate)", "url": "https://github.com/taqiyaehsan/MLSS-Hackathon-2026" }
+      ]
+    },
+    {
       "title": "Profiling Communication Bottlenecks in Distributed LLaMA Training",
       "description": "Characterized TP/CP/PP/DP configurations and pipeline P2P communication patterns for LLaMA-8B training. Developed custom NCCL monitoring infrastructure for Megatron-LM.",
       "period": "September – December 2025",
