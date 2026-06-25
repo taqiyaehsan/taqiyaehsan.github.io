@@ -139,8 +139,7 @@
       "category": "research",
       "links": [
         { "text": "Slides", "url": "docs/SAGE-MLSS-Hackathon-2.pdf" },
-        { "text": "GitHub (SAGE)", "url": "https://github.com/taqiyaehsan/SAGE-2026" },
-        { "text": "GitHub (Skeptic Gate)", "url": "https://github.com/taqiyaehsan/MLSS-Hackathon-2026" }
+        { "text": "GitHub (SAGE)", "url": "https://github.com/taqiyaehsan/SAGE-2026" }
       ]
     },
     {
