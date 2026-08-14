@@ -171,7 +171,8 @@
       "role": "Summer Research Mentor",
       "organization": "<a href='https://www.winlab.rutgers.edu/' target='_blank'>Wireless Information Network Laboratory (WINLAB)</a>, Rutgers University",
       "details": "Coordinated and mentored undergraduate interns in research methodologies, development environment setup, and project troubleshooting; facilitated communication between interns and faculty advisors",
-      "period": "Summer 2026"
+      "period": "Summer 2026",
+      "blogpost": "<a href='https://ortiz.rutgers.edu/blog/winlab-summer-2026-cs3/' target='_blank'>From a Prompt to Verified Agent Applications</a>"
     },
     {
       "role": "Guest Speaker",
