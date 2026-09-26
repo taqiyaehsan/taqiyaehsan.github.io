@@ -1,6 +1,13 @@
 {
   "selectedPublications": [
     {
+      "title": "Act, Validate, Adapt: Closing the Causal Discovery-Control Loop",
+      "authors": "<b>T. Ehsan</b>, S. Xia, and J. Ortiz",
+      "venue": "NeurIPS 2026 (to appear)",
+      "links": []
+    },
+    
+    {
       "title": "TraceFix: Repairing Agent Coordination Protocols with TLA+ Counterexamples",
       "authors": "S. Xia, Q. Li, <b>T. Ehsan</b>, and J. Ortiz",
       "venue": "<a href=\"https://www.caisconf.org/\">ACM CAIS 2026</a>",
