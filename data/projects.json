@@ -4,7 +4,9 @@
       "title": "Act, Validate, Adapt: Closing the Causal Discovery-Control Loop",
       "authors": "<b>T. Ehsan</b>, S. Xia, and J. Ortiz",
       "venue": "NeurIPS 2026 (to appear)",
-      "links": []
+      "links": [
+        { "text": "Project Page", "url": "https://ortiz.rutgers.edu/projects/policygrid/" }
+      ]
     },
     
     {
